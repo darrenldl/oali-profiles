@@ -100,4 +100,5 @@ Screensaver:
     - pkgs:
       # - i3lock
       # - xscreensaver
+      - swaylock
 
