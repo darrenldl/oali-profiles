@@ -72,7 +72,6 @@ Racket:
   pkg.installed:
     - pkgs:
       - racket
-      - racket-docs
 
 R:
   pkg.installed:
