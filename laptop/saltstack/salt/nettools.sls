@@ -12,7 +12,7 @@ Network diagnosis:
 DNS:
   pkg.installed:
     - pkgs:
-      - dnsutils
+      - bind-tools
 
 Network monitoring:
   pkg.installed:
