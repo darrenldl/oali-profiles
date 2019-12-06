@@ -66,7 +66,7 @@ Rust:
     - pkgs:
       - rust
       - rust-docs
-      - cargo
+      # - cargo
 
 Racket:
   pkg.installed:
