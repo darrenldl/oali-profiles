@@ -37,7 +37,6 @@ Hashing:
   pkg.installed:
     - pkgs:
       - rhash
-      - cfv
 
 Cryptographic:
   pkg.installed:
