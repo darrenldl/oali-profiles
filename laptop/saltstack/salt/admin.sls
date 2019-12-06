@@ -6,16 +6,6 @@ System monitoring:
        - glances
        - nmon
 
-System info:
-  pkg.installed:
-    - pkgs:
-      - screenfetch
-
-# At:
-#   pkg.installed:
-#     - pkgs:
-#       - at
-
 Cron:
   pkg.installed:
     - pkgs:
@@ -39,6 +29,7 @@ System info:
       - hwdetect
       - lshw
       - hardinfo
+      - screenfetch
 
 Log cleaning:
   pkg.installed:
