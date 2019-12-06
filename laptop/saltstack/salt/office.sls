@@ -31,11 +31,9 @@ PDF:
       - poppler
       - diffpdf
 
-Note taking:
-  pkg.installed:
-    - pkgs:
-      - cherrytree
-      # - zim
+# Note taking:
+#   pkg.installed:
+#     - pkgs:
 
 # Time tracking:
 #   pkg.installed:
