@@ -6,11 +6,6 @@ System hardening:
       - pax-utils
       - paxtest
 
-Vulnerability scan/management:
-  pkg.installed:
-    - pkgs:
-      - openvas
-
 Intrusion detection:
   pkg.installed:
     - pkgs:
@@ -30,7 +25,6 @@ Hashing:
   pkg.installed:
     - pkgs:
       - rhash
-      - cfv
 
 Cryptographic:
   pkg.installed:

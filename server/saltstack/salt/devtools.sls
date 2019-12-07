@@ -42,22 +42,6 @@ Rust:
       - rust-docs
       - cargo
 
-Racket:
-  pkg.installed:
-    - pkgs:
-      - racket
-      - racket-docs
-
-R:
-  pkg.installed:
-    - pkgs:
-      - r
-
-Haxe:
-  pkg.installed:
-    - pkgs:
-      - haxe
-
 JSON:
   pkg.installed:
     - pkgs:

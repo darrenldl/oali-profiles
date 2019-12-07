@@ -1,14 +1,8 @@
 System monitoring:
   pkg.installed:
     - pkgs:
-#      - conky
        - gtop
        - glances
-
-At:
-  pkg.installed:
-    - pkgs:
-      - at
 
 Cron:
   pkg.installed:
@@ -77,11 +71,6 @@ File backup:
   pkg.installed:
     - pkgs:
       - borg
-
-File synchronisation:
-  pkg.installed:
-    - pkgs:
-      - unison
 
 Cloud file access:
   pkg.installed:
