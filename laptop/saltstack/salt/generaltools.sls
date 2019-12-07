@@ -5,7 +5,6 @@ Text editor:
       - neovim
       - nano
       - gedit
-      # - geany
       - emacs
 
 Searching:

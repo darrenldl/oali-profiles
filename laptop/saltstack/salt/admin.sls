@@ -1,7 +1,6 @@
 System monitoring:
   pkg.installed:
     - pkgs:
-#      - conky
        - gtop
        - glances
        - nmon

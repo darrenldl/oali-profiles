@@ -49,6 +49,7 @@ Password management:
   pkg.installed:
     - pkgs:
       - keepass
+      - keepassxc
 
 Keyring:
   pkg.installed:
