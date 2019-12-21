@@ -10,11 +10,16 @@ Terminal emulators:
     - pkgs:
       - alacritty
 
-Xfce4:
+# Xfce4:
+#   pkg.installed:
+#     - pkgs:
+#       - xfce4
+#       - xfce4-goodies
+
+Lxqt:
   pkg.installed:
     - pkgs:
-      - xfce4
-      - xfce4-goodies
+      - lxqt
 
 Window manager related:
   pkg.installed:
