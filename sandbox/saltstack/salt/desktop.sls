@@ -16,10 +16,15 @@ Terminal emulators:
 #       - xfce4
 #       - xfce4-goodies
 
-Lxqt:
+# Lxqt:
+#   pkg.installed:
+#     - pkgs:
+#       - lxqt
+
+MATE:
   pkg.installed:
     - pkgs:
-      - lxqt
+      - mate
 
 Window manager related:
   pkg.installed:
