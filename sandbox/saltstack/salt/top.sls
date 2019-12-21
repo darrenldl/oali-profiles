@@ -16,3 +16,4 @@ base:
     - sectools
     - services
     - system
+    - virtualisation

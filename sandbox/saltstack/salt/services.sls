@@ -10,3 +10,8 @@ Make sure sddm is enabled:
     - require :
       - Login manager
 
+Make sure spice-vdagentd is enabled:
+  service.enabled:
+    - name : spice-vdagentd
+    - require :
+      - Spice guest packages
