@@ -4,14 +4,14 @@ Make sure NetworkManager is enabled:
     - require :
       - Network management
 
-# Make sure sddm is enabled:
-#   service.enabled:
-#     - name : sddm
-#     - require :
-#       - Login manager
-
-Make sure spice-vdagentd is enabled:
+Make sure sddm is enabled:
   service.enabled:
-    - name : spice-vdagentd
+    - name : sddm
     - require :
-      - Spice guest packages
+      - Login manager
+
+# Make sure spice-vdagentd is enabled:
+#   service.enabled:
+#     - name : spice-vdagentd
+#     - require :
+#       - Spice guest packages
