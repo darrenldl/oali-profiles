@@ -21,3 +21,8 @@ Virt manager:
       - ebtables
       # firewall backend
       # - firewalld
+
+GNOME boxes:
+  pkg.installed:
+    - pkgs:
+      - gnome-boxes
