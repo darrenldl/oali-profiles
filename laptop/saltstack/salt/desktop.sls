@@ -102,3 +102,7 @@ Screensaver:
       # - xscreensaver
       - swaylock
 
+Polkit:
+  pkg.installed:
+    - pkgs:
+      - mate-polkit
