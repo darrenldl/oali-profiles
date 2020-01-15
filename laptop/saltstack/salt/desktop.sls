@@ -77,7 +77,8 @@ Scan utils:
 File managers:
   pkg.installed:
     - pkgs:
-      - vifm
+      # - vifm
+      - ranger
       # - thunar
       # - thunar-volman
       # - tumbler
