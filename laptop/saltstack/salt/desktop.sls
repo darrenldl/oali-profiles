@@ -39,6 +39,7 @@ Sway:
       - swayidle
       - swaylock
       - wl-clipboard
+      - mako
 
 # LXQt:
 #   pkg.installed:
