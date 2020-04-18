@@ -15,3 +15,7 @@ Make sure sshd is enabled:
     - name : sshd
     - require :
       - SSH
+
+Make sure dhcpcd is enabled:
+  service.enabled:
+    - name : dhcpcd
