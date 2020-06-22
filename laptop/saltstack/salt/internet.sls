@@ -2,7 +2,6 @@ Web browsers:
   pkg.installed:
     - pkgs:
       - firefox
-      - chromium
       - falkon
       # - midori
 
